@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1 {
+            /* background-color: #28AAD7; */
+            /* 背景 */
+            background-image: url(beijing.webp);
+            /* 设置背景 */
+            background-size: 100% 100%;
+            /* 令背景居中 */
+            background-position: center, center;
+            /* 不重复用背景 */
+            background-repeat: no-repeat;
+            /* 内外边距设为零 */
+            padding: 0px;
+            margin: 0px;
+            border-style: none;
+            /* 大小 */
+            width: 100%;
+            height: 670px;
+            /* 堆叠顺序 */
+            z-index: 1;
+        }
+        /* 去除浏览器自带的边框 */
+        
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .f1-2 {
+            /* 正文盒子的大小 */
+            height: 650px;
+            width: 860px;
+            background-color: #202020;
+            /* 设置透明度 */
+            opacity: 0.9;
+            /* 居中 */
+            margin: auto;
+            /* 圆角 */
+            border-radius: 5px;
+            /* 作为父元素给予子元素定位 */
+            position: relative;
+        }
+        
+        #f1-2-1 {
+            display: block;
+            /* 大小 */
+            height: 4px;
+            width: 650px;
+            /* hr的颜色 */
+            color: aquamarine;
+            /* 居中 */
+            margin: auto;
+            /* 强行向下位移 */
+            position: relative;
+            top: 15px;
+        }
+        /* li将前面将没有标记 */
+        
+        li {
+            list-style-type: none;
+        }
+        
+        #f1-3-2-1-2 {
+            display: inline-block;
+            /* 大小 */
+            width: 600px;
+            height: 540px;
+            /* 外内边距 */
+            margin: 5px 0px 5px 1px;
+            padding: 0px;
+            /* 圆角 */
+            border-radius: 3px;
+            /* background-color: rgb(140, 141, 142); */
+            /* 强行变位 */
+            position: absolute;
+            right: 120px;
+            bottom: 30px;
+        }
+        
+        #f1-2-8 {
+            /* 文字言色 */
+            color: #56DBFA;
+            /* 文字大小 */
+            font-size: 30px;
+            /* 文字居中 */
+            text-align: center;
+        }
+        
+        h4 {
+            /* 强行变位 */
+            position: absolute;
+            right: 600px;
+            bottom: 550px;
+            color: aliceblue;
+        }
+        
+        .p-2 {
+            color: azure;
+            text-indent: 2em;
+            /* 强行变位 */
+            position: absolute;
+            right: 170px;
+            bottom: 500px;
+        }
+        
+        .jw {
+            color: azure;
+            text-indent: 2em;
+            /* 强行变位 */
+            position: absolute;
+            right: 170px;
+            bottom: 450px;
+            text-indent: 0em;
+        }
+        
+        #g1-1 {
+            display: inline-block;
+            /* 大小 */
+            width: 89px;
+            height: 35px;
+            /* 外内边距 */
+            margin: 5px 0px 5px 1px;
+            padding: 7px 0px 0px 0px;
+            /* 圆角 */
+            border-radius: 3px;
+            background-color: rgb(88, 189, 100);
+            /* 字体大小 */
+            font-size: 20px;
+            /* 颜色 */
+            color: #FFFFFF;
+            /* 字体水平居中 */
+            text-align: center;
+            text-decoration: none;
+            /* 强行变位 */
+            position: absolute;
+            right: 380px;
+            bottom: 200px;
+            text-indent: 0em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="p1">
+        <li class="f1-2">
+            <h3 id="f1-2-8">详情</h3>
+
+            <hr color="#56DBFA" id="f1-2-1">
+
+            <p id="f1-3-2-1-2">
+                <h4>尊敬的用户您好:</h4>
+                <p class="p-2">近日网站将进行维护整修，维护整修期间网站的大部分功能将<br>无法使用，维护整修结束后将会在公告中再作通知。</p>
+                <p class="jw">OBJECT126_<br>2022/12/17</p>
+            </p>
+            <a href="a1.html#2" id="g1-1">我知道了</a>
+        </li>
+    </div>
+</body>
+
+</html>

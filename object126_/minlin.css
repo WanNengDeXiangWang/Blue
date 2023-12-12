@@ -1,0 +1,600 @@
+#p1 {
+    /* background-color: #28AAD7; */
+    /* 背景 */
+    background-image: url(beijing.png);
+    /* 设置背景 */
+    background-size: 100% 100%;
+    /* 令背景居中 */
+    background-position: center, center;
+    /* 不重复用背景 */
+    background-repeat: no-repeat;
+    /* 内外边距设为零 */
+    padding: 0px;
+    margin: 0px;
+    border-style: none;
+    /* 大小 */
+    width: 100%;
+    height: 670px;
+    /* 堆叠顺序 */
+    z-index: 1;
+}
+
+
+/* 去除浏览器自带的边框 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* li将前面将没有标记 */
+
+li {
+    list-style-type: none;
+}
+
+ol>li {
+    list-style-type: disc;
+    padding: 8px;
+    /* 强行定位 */
+    position: relative;
+    left: 30px;
+    /* 首行缩进 */
+    text-indent: 1em;
+}
+
+
+/* a标签将没有下划线 */
+
+a {
+    text-decoration: none;
+}
+
+#f2-2:hover {
+    border-width: 3px 0px 0px 0px;
+    border-style: solid;
+    border-color: #56DBFA;
+}
+
+
+/* 链接到的内容时  */
+
+:target {
+    display: block;
+}
+
+
+/* a标签平时处于不可见状态 */
+
+div>div>ul>li {
+    display: none;
+}
+
+
+/* 大盒子 */
+
+#f1 {
+    width: 940px;
+    height: 590px;
+    /* 外内边距 */
+    padding: 10px;
+    margin: 0px;
+    border-style: 0px;
+    /* background-color: aqua; */
+    /* 居中 */
+    margin: 0 auto;
+    /* 设置透明度 */
+    opacity: 1;
+    background-size: 1490px 680px;
+    /* 堆叠顺序 */
+    z-index: 2;
+    /* 强行移位 */
+    position: absolute;
+    left: 266px;
+    /* 背景 */
+    background-image: url(texao-1.png);
+    /* 分别设置特效，背景 */
+    background-size: 940px 684px;
+}
+
+
+/* 正文1 */
+
+.f1-1 {
+    /* 正文盒子的大小 */
+    height: 400px;
+    width: 500px;
+    /* background-color: gold; */
+    /* 堆叠顺序 */
+    z-index: auto;
+    /* 居中 */
+    margin: auto;
+    /* 强行移位 */
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
+
+
+/* 正文2（公告） */
+
+.f1-2 {
+    /* 正文盒子的大小 */
+    height: 590px;
+    width: 860px;
+    background-color: #202020;
+    /* 设置透明度 */
+    opacity: 0.9;
+    /* 居中 */
+    margin: auto;
+    /* 圆角 */
+    border-radius: 5px;
+    /* 文字言色 */
+    color: #56DBFA;
+    /* 文字大小 */
+    font-size: 30px;
+    /* 文字居中 */
+    text-align: center;
+}
+
+#f1-2-1 {
+    display: block;
+    /* 大小 */
+    height: 4px;
+    width: 650px;
+    /* hr的颜色 */
+    color: aquamarine;
+    /* 居中 */
+    margin: auto;
+    /* 强行向下位移 */
+    position: relative;
+    top: 15px;
+}
+
+#f1-2-2 {
+    display: block;
+    /* 大小 */
+    height: 50px;
+    width: 640px;
+    /* 外边距 */
+    padding: 10px;
+    /* 颜色 */
+    color: #FFFFFF;
+    /* 文字大小 */
+    font-size: 15px;
+    /* background-color: crimson; */
+    /* 居中 */
+    margin: auto;
+    text-align: left;
+    /* 边框样式  */
+    border-style: solid;
+    /* 边框大小 */
+    border-width: 0px 0px 1px 0px;
+    /* 边框颜色 */
+    border-color: #FFFFFF;
+}
+
+#f1-2-3 {
+    /* display: block; */
+    /* 大小 */
+    height: 30px;
+    width: 60px;
+    /* 水平居中 */
+    padding: 8px;
+    text-align: center;
+    vertical-align: sub;
+    /* 文字大小 */
+    font-size: 18px;
+    /* 文字颜色 */
+    color: #FFFFFF;
+    background-color: #56DBFA;
+    /* 向右变浮动 */
+    float: right;
+    /* 圆角 */
+    border-radius: 5px;
+    /* 强行向左位移 */
+    position: relative;
+    left: -5px;
+}
+
+
+/* 正文3(商品购买) */
+
+.f1-3 {
+    /* 正文盒子的大小 */
+    height: 590px;
+    width: 940px;
+    background-color: #90e4f7;
+    ;
+    /* 设置透明度 */
+    opacity: 0.9;
+    /* 居中 */
+    margin: auto;
+    /* 圆角 */
+    border-radius: 5px;
+}
+
+#f1-3-1 {
+    display: inline-block;
+    /* 大小 */
+    height: 540px;
+    width: 210px;
+    /* 外内边距 */
+    margin: 10px;
+    padding: 0px;
+    background-color: #FFFFFFFF;
+    /* 圆角 */
+    border-radius: 5px;
+}
+
+#f1-3-1-1 {
+    /* 纵向排列 */
+    display: list-item;
+    /* 大小 */
+    height: 80px;
+    width: 210px;
+    background-color: rgb(145, 146, 145);
+    /* 水平居中 */
+    text-align: center;
+    vertical-align: middle;
+    /* 圆角 */
+    /* border-radius: 5px 5px 0px 0px; */
+    /* 字体大小 */
+    font-size: 25px;
+    /* 字体颜色 */
+    color: #FFFFFF;
+    /* 文本间隔 */
+    letter-spacing: 2px;
+    font-weight: 600;
+    /* 内边距 */
+    padding: 0px 0px 0px 0px;
+    line-height: 80px;
+}
+
+.f1-3-2 {
+    /* display: none; */
+    display: block;
+    /* display: inline-block; */
+    /* 大小 */
+    height: 540px;
+    width: 630px;
+    /* 外内边距 */
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(228, 228, 228);
+    /* 圆角 */
+    border-radius: 5px;
+    /* 强行变位 */
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    /* 溢出内容将会显示滚动条 */
+    overflow: scroll;
+}
+
+#f1-3-2-1 {
+    /* 大小 */
+    height: 200px;
+    width: 600px;
+    /* 外内边距 */
+    margin: 5px 0px 5px 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    /* 圆角 */
+    border-radius: 5px;
+    /* 作为父元素给予子元素定位 */
+    position: relative;
+}
+
+#f1-3-2-1-1 {
+    display: inline-block;
+    /* 大小 */
+    width: 300px;
+    height: 190px;
+    /* 外内边距 */
+    margin: 5px 0px 5px 1px;
+    padding: 0px;
+    /* 圆角 */
+    border-radius: 3px;
+    /* background-color: rgb(68, 175, 228); */
+    line-height: 100px;
+}
+
+#f1-3-2-1-2 {
+    display: inline-block;
+    /* 大小 */
+    width: 280px;
+    height: 140px;
+    /* 外内边距 */
+    margin: 5px 0px 5px 1px;
+    padding: 0px;
+    /* 圆角 */
+    border-radius: 3px;
+    /* background-color: rgb(140, 141, 142); */
+    /* 强行变位 */
+    position: absolute;
+    right: 15px;
+    bottom: 40px;
+}
+
+#f1-3-2-1-3 {
+    display: inline-block;
+    /* 大小 */
+    width: 80px;
+    height: 35px;
+    /* 外内边距 */
+    margin: 5px 0px 5px 1px;
+    padding: 7px 0px 0px 0px;
+    /* 圆角 */
+    border-radius: 3px;
+    background-color: rgb(88, 189, 100);
+    /* 强行变位 */
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+    /* top: 159px; */
+    /* left: 520px; */
+    /* 字体大小 */
+    font-size: 20px;
+    /* 颜色 */
+    color: #FFFFFF;
+    /* 字体水平居中 */
+    text-align: center;
+}
+
+ul>p {
+    display: none;
+}
+
+#g9 {
+    /* display: block; */
+    /* 正文盒子的大小 */
+    height: 170px;
+    width: 260px;
+    background-color: #fffdfd;
+    /* 设置透明度 */
+    opacity: 0.9;
+    /* 居中 */
+    margin: auto;
+    /* 圆角 */
+    border-radius: 5px;
+    /* 文字言色 */
+    color: #56DBFA;
+    /* 文字大小 */
+    font-size: 30px;
+    /* 文字居中 */
+    text-align: center;
+    /* 强行变位 */
+    position: relative;
+    top: 150px;
+}
+
+#g90 {
+    /* display: block; */
+    /* 正文盒子的大小 */
+    height: 170px;
+    width: 260px;
+    background-color: #fffdfd;
+    /* 设置透明度 */
+    opacity: 0.9;
+    /* 居中 */
+    margin: auto;
+    /* 圆角 */
+    border-radius: 5px;
+    /* 文字言色 */
+    color: #56DBFA;
+    /* 文字大小 */
+    font-size: 30px;
+    /* 文字居中 */
+    text-align: center;
+    /* 强行变位 */
+    position: relative;
+    top: 150px;
+}
+
+#g1-1 {
+    display: inline-block;
+    /* 大小 */
+    width: 89px;
+    height: 35px;
+    /* 外内边距 */
+    margin: 5px 0px 5px 1px;
+    padding: 7px 0px 0px 0px;
+    /* 圆角 */
+    border-radius: 3px;
+    background-color: rgb(88, 189, 100);
+    /* 字体大小 */
+    font-size: 20px;
+    /* 颜色 */
+    color: #FFFFFF;
+    /* 字体水平居中 */
+    text-align: center;
+}
+
+
+/* 正文4）（成为会员） */
+
+.f1-4 {
+    /* 正文盒子的大小 */
+    height: 510px;
+    width: 700px;
+    background-color: #202020;
+    /* 设置透明度 */
+    opacity: 0.9;
+    /* 居中 */
+    margin: auto;
+    /* 圆角 */
+    border-radius: 5px;
+    /* 文字言色 */
+    color: #FFFFFFFF;
+    /* 文字大小 */
+    font-size: 20px;
+    /* 内边距 */
+    padding: 40px;
+}
+
+#f1-4-1 {
+    display: block;
+    display: inline-block;
+    /* 大小 */
+    height: 30px;
+    width: 80px;
+    background-color: #56DBFA;
+    color: #FFFFFF;
+    /* 圆角 */
+    border-radius: 5px;
+    /* 外内边距 */
+    margin: 20px;
+    padding: 10px;
+    position: absolute;
+    right: 420px;
+    top: 400px;
+}
+
+#f1-4-2 {
+    text-align: center;
+    color: #56DBFA;
+}
+
+
+/* 正文5(关于这个网站) */
+
+.f1-5 {
+    /* 正文盒子的大小 */
+    height: 580px;
+    width: 750px;
+    background-color: #202020;
+    /* 设置透明度 */
+    opacity: 0.9;
+    /* 居中 */
+    margin: auto;
+    /* 圆角 */
+    border-radius: 5px;
+    padding: 5PX;
+    /* 作为父元素给予子元素定位 */
+    position: relative;
+}
+
+.f1-5-1 {
+    /* 文本居中 */
+    text-align: center;
+    /* 颜色 */
+    color: #62e2ff;
+}
+
+.f1-5-2 {
+    display: block;
+    /* 大小 */
+    height: 4px;
+    width: 650px;
+    /* 居中 */
+    margin: auto;
+    /* 强行向下位移 */
+    position: relative;
+    top: 15px;
+}
+
+.f1-5-3 {
+    /* 颜色 */
+    color: #FFFFFF;
+    /* 强行向下位移 */
+    position: relative;
+    top: 18px;
+    /* 文本居中 */
+    text-align: center;
+}
+
+
+/* 导航栏 */
+
+#f2 {
+    /* display: block; */
+    background-color: #2C4B5F;
+    width: 100%;
+    height: 60px;
+    /* 内外边距设为零 */
+    padding: 0px;
+    margin: 0px;
+    /* 边框厚度 */
+    border-width: 0px;
+    /* 设置透明度 */
+    opacity: 0.8;
+    /* 堆叠顺序 */
+    z-index: 3;
+}
+
+
+/* 喽狗 */
+
+#f2-1 {
+    display: table-cell;
+    height: 100%;
+    width: 150px;
+    /* 内外边距设为零 */
+    padding: 8px 58px;
+    margin: 0px;
+    /* 边框厚度 */
+    border-width: 0px;
+    /* background-color: crimson; */
+}
+
+
+/* 选择盒子 */
+
+#f2-2 {
+    display: block;
+    /* 横向排列 */
+    display: table-cell;
+    height: 100%;
+    width: 188px;
+    /* 外内边距设为零 */
+    padding: 0px;
+    margin: 0px;
+    /* 边框厚度 */
+    border-width: 3px 0px 0px 0px;
+    border-style: none;
+    border-color: #ffffff;
+    /* background-color: coral; */
+    /* li不再带点 */
+    list-style: none;
+    /* 水平居中 */
+    text-align: center;
+    /* 垂直居中 */
+    vertical-align: middle;
+    /* 字体颜色 */
+    color: #ffffff;
+    /* 字符尺寸 */
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+/* 大盒子2(底栏) */
+
+#p2 {
+    height: 75px;
+    width: 100%;
+    /* background-color: chartreuse; */
+    /* 作为父元素给予子元素定位 */
+    position: relative;
+}
+
+.p2-1 {
+    position: relative;
+    left: 20%;
+}
+
+.p2-3 {
+    height: 40px;
+    width: 200px;
+    /* 边框 */
+    border-width: 0px 2px;
+    border-style: solid;
+    /* 外内边距 */
+    margin: 0px;
+    padding: 0px;
+    /* 定位 */
+    position: relative;
+    left: 45%;
+}
